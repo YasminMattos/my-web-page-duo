@@ -5,12 +5,73 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.white {
-  color: #fff;
+.bg-start {
+  background: #383e42;
+  color: #ffffff;
+}
+
+nav {
+  padding: 1em 2.2em;
+  overflow: auto;
+}
+
+a {
+  color: inherit;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.icon {
+  color: gray;
+  font-size: 2em;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.first-nav {
+  float: left;
+}
+
+.second-nav {
+  float: right;
+}
+
+.hidden-menu {
+  display: none;
 }
 
 .list-menu {
   display: inline-block;
+}
+
+.bg-header {
+  background-image: url("../assets/images/tech.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.center {
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.layer {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 11em 0;
 }
 
 .call, .find-out {
