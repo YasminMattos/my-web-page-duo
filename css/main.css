@@ -166,3 +166,14 @@ footer {
     float: right;
   }
 }
+
+
+@media (min-width: 1200px) {
+  section{
+    margin: 0 7em;
+  }
+
+  .layer {
+    padding: 9em 0;
+  }
+}
