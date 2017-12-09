@@ -4,6 +4,7 @@
   box-sizing: border-box;  
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /*Estilos del header*/
 .bg-start {
   background: #383e42;
@@ -45,6 +46,11 @@ a {
 
 .list-menu {
   display: inline-block;
+  margin-right: 1.5em;
+}
+
+.list-menu:hover {
+  cursor: pointer;
 }
 
 .bg-header {
@@ -147,4 +153,16 @@ footer {
   margin-top: 2em;
   padding: 2em;
   text-align: center;
+}
+
+/*Estilos desktop*/
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+    float: right;
+  }
 }
