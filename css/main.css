@@ -2,5 +2,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;  
+  font-family: ;
 }
 
+.white {
+  color: #fff;
+}
+
+.find-out {
+  background-color: #007bff;
+}
+
+footer {
+  background-color: #343a40;
+  height: 20%;
+}
