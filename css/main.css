@@ -9,8 +9,16 @@
   color: #fff;
 }
 
-.find-out {
+.list-menu {
+  display: inline-block;
+}
+
+.call, .find-out {
   background-color: #007bff;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 14px;
+  outline-color: 1px solid #007bff; 
 }
 
 footer {
