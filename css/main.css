@@ -85,7 +85,7 @@ h3 {
   padding: 11em 0;
 }
 
-/*Estilos primera sección*/
+/*Estilos section*/
 
 .info {
   color: #393939;
@@ -155,8 +155,16 @@ footer {
   text-align: center;
 }
 
-/*Estilos desktop*/
+/*Estilos Ipad*/
 @media (min-width: 768px) {
+  section{
+    margin: 0 0.3em;
+  }
+
+  .layer {
+    padding: 6em 0;
+  }
+
   .mobile-menu {
     display: none;
   }
@@ -171,21 +179,32 @@ footer {
     display: flex;
   }
 
+  [class^=col] {
+    float: left;
+    
+  }
+
   .first-col {
     width: 66.66666667%;
-    float: left;
-    text-align: justify;
     margin-right: 3em;
+    text-align: justify;
   }
 
   .second-col {
     width: 33.33333333%;
-    float: left;
   }
 
+  .third-cols {
+    width: 40%;
+    
+  }
+
+  .col-margin {
+    margin-right: 2em;
+  }
 }
 
-
+/*Estilos desktop*/
 @media (min-width: 1200px) {
   section{
     margin: 0 7em;
@@ -193,5 +212,23 @@ footer {
 
   .layer {
     padding: 9em 0;
+  }
+
+  .container {
+    overflow: auto;
+    display: flex;
+  }
+  
+  [class^=col] {
+    float: left;
+    
+  }
+
+  .fourth-cols {
+    width: 33.33333333%;   
+  }
+
+  .col-margin {
+    margin-right: 3em;
   }
 }
