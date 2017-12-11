@@ -27,6 +27,14 @@ a {
   font-size: 2em;
 }
 
+.contact {
+  color: #383e42;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-right: 0.3em;
+}
+
 .icon:hover {
   cursor: pointer;
   color: #ffffff;
@@ -51,6 +59,7 @@ a {
 
 .list-menu:hover {
   cursor: pointer;
+  color: #708198;
 }
 
 .bg-header {
@@ -125,7 +134,7 @@ h3 {
 }
 
 .division {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .card {
@@ -150,7 +159,7 @@ img {
 footer {
   background-color: #343a40;
   color: #ffffff;
-  margin-top: 2em;
+  margin-top: 3.7em;
   padding: 2em;
   text-align: center;
 }
@@ -174,9 +183,18 @@ footer {
     float: right;
   }
 
+  .text-m {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
   .container {
     overflow: auto;
     display: flex;
+  }
+
+  .division-m {
+    margin-top: 0.5em;
   }
 
   [class^=col] {
@@ -209,7 +227,7 @@ footer {
   section{
     margin: 0 7em;
   }
-
+  
   .layer {
     padding: 9em 0;
   }
